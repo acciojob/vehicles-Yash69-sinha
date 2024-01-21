@@ -20,12 +20,12 @@ public class Vehicle {
         return currentDirection;
     }
 
-   
+
 
     public Vehicle(String name) {
         this.name=name;
-        this.currentSpeed=currentSpeed;
-        this.currentDirection=currentDirection;
+        this.currentSpeed=0;
+        this.currentDirection=0;
 
     }
 
